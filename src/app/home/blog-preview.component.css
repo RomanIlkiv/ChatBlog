@@ -1,0 +1,15 @@
+.blog-item {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.blog-item h3 {
+  margin-top: 0;
+  font-size: 23px;
+}
+
+.blog-item p {
+  height: 150px;
+}

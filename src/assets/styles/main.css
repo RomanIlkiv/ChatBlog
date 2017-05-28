@@ -1,3 +1,10 @@
 body {
   font-family: 'Ubuntu', sans-serif;
+  background-color: #E0E0E0;
+}
+
+.blog-page-title {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Unkempt', cursive;
 }

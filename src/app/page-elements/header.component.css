@@ -2,6 +2,8 @@
   font-family: 'Sue Ellen Francisco', cursive;
   background-color: #0277BD;
   border-radius: 0;
+  margin-bottom: 0;
+  border: 0;
 }
 li a {
   font-size: 19px;

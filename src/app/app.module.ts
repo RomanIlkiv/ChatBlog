@@ -14,6 +14,8 @@ import { SigninComponent } from './auth/signin.component';
 import { SignupComponent } from './auth/signup.component';
 import { LogoutComponent } from './auth/logout.component';
 import { BlogComponent } from './blog/blog.component';
+import { BlogPreviewComponent } from './home/blog-preview.component';
+import {BlogService} from "./shared/blog.service";
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { BlogComponent } from './blog/blog.component';
     SigninComponent,
     SignupComponent,
     LogoutComponent,
-    BlogComponent
+    BlogComponent,
+    BlogPreviewComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +37,7 @@ import { BlogComponent } from './blog/blog.component';
     HttpModule,
     Routing
   ],
-  providers: [],
+  providers: [BlogService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,3 +1,9 @@
-<p>
-  home works!
-</p>
+<div class="main-photo col-md-12">
+  <p>Open your story to the world.</p>
+</div>
+<div class="blog-list row">
+  <h1 class="blog-page-title col-xs-12">Newest blogs:</h1>
+
+  <blog-preview *ngFor="let blog of blogs" [blog]="blog" class="col-xs-12 col-sm-6 col-lg-4"></blog-preview>
+</div>
+
