@@ -1,0 +1,75 @@
+.blog-header-menu {
+  font-family: 'Sue Ellen Francisco', cursive;
+  background-color: #0277BD;
+  border-radius: 0;
+}
+li a {
+  font-size: 19px;
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+li a:hover, li a:focus {
+  color: #B3E5FC;
+  outline: none;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover, .blog-profile-xs.open {
+  color: #ffffff;
+  background-color: #01579B;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #01579B;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.blog-profile-img {
+  padding: 5px;
+}
+
+.blog-profile-img img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.blog-logo-block {
+  position: absolute;
+  left: 42%;
+  margin-top: 3px;
+}
+
+.blog-logo-block img {
+  width: 40px;
+}
+
+.blog-logo-block img:first-child {
+  width: 50px;
+  margin-top: 2px;
+}
+.blog-logo-block img:last-child {
+  margin-left: -8px;
+}
+
+.blog-navbar-button {
+  float: left;
+  margin-left: 20px;
+}
+
+.blog-profile-xs {
+  float: right;
+  margin: 0 5px;
+  padding: 5px 0;
+}
+
+.blog-header-menu .dropdown-menu {
+  right: 0px;
+  left: auto;
+  background: #0277BD;
+}
